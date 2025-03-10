@@ -38,6 +38,9 @@ os.environ["DB_NAME"] = ""
 - A GPU server is mandatory to test the performance of NetworkX with nx-cugraph backend
 - Maintain optimal sampling parameters to avoid lengthy execution times
 
+## Architecture Diagram
+![Image 9](UI_Images/Architecture_Diagram.png)
+
 ## UI Screenshots from Claude Artifacts
 
 ![Image 2](UI_Images/UI_2.png)

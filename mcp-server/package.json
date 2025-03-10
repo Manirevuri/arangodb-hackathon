@@ -1,0 +1,28 @@
+{
+  "name": "mcp-nx-arangodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  },
+  "type": "module",
+  "bin": {
+    "weather": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ]
+}

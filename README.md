@@ -1,7 +1,16 @@
 # GraphMind AI: Natural Language Query Agent for CVE Graph Database
-![Image 1](UI_Images/UI_1.png)
+
+<video src="ArangoDB Agent-Graphmind.mp4" controls width="720" height="540"></video>
+    
+[Watch the video on Youtube](https://www.youtube.com/watch?v=uFO_aBpbdWk)
+
+Note: Adding the video here as we ran into playback issues while uploading it to youtube.
+
 ## Project Overview
-We've developed an AI agent that can process natural language queries on a Common Vulnerabilities and Exposures (CVE) graph database. The graph contains approximately 145,000 nodes and 316,000 edges, allowing for comprehensive vulnerability analysis.
+We've developed an AI agent that can process natural language queries on a Common Vulnerabilities and Exposures (CVE) graph database. The graph contains approximately 145,000 nodes and 316,000 edges, allowing for comprehensive vulnerability analysis. We are leveraging claude's MCP integration for creating dynamic UI components.
+
+## Architecture Diagram
+![Image 9](UI_Images/Architecture_Diagram.png)
 
 ## Important Setup Notes
 - After loading data into ArangoDB, truncate the product_vendor edge collectio and upload the output.json file to fix the issues associated with the original ArangoDB dataset
@@ -38,8 +47,9 @@ os.environ["DB_NAME"] = ""
 - A GPU server is mandatory to test the performance of NetworkX with nx-cugraph backend
 - Maintain optimal sampling parameters to avoid lengthy execution times
 
-## Architecture Diagram
-![Image 9](UI_Images/Architecture_Diagram.png)
+## Hybrid tool calling
+![Image 8](UI_Images/UI_8.png)
+![Image 1](UI_Images/UI_1.png)
 
 ## UI Screenshots from Claude Artifacts
 
@@ -49,8 +59,4 @@ os.environ["DB_NAME"] = ""
 ![Image 5](UI_Images/UI_5.png)
 ![Image 6](UI_Images/UI_6.png)
 ![Image 7](UI_Images/UI_7.png)
-
-## Hybrid tool calling
-![Image 8](UI_Images/UI_8.png)
-
 

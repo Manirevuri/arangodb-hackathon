@@ -1,5 +1,5 @@
 # GraphMind AI: Natural Language Query Agent for CVE Graph Database
-
+![Image 1](UI_Images/UI_1.png)
 ## Project Overview
 We've developed an AI agent that can process natural language queries on a Common Vulnerabilities and Exposures (CVE) graph database. The graph contains approximately 145,000 nodes and 316,000 edges, allowing for comprehensive vulnerability analysis.
 
@@ -37,3 +37,8 @@ os.environ["DB_NAME"] = ""
 - Install all required packages before testing
 - A GPU server is mandatory to test the performance of NetworkX with nx-cugraph backend
 - Maintain optimal sampling parameters to avoid lengthy execution times
+
+## UI Screenshots from Claude Artifacts
+
+![Image 2](UI_Images/UI_2.png)
+![Image 3](UI_Images/UI_3.png)

@@ -1,7 +1,7 @@
 # GraphMind AI: Natural Language Query Agent for CVE Graph Database
 
-<video src="ArangoDB Agent-Graphmind.mp4" controls width="720" height="540"></video>
-    
+[![YouTube](http://i.ytimg.com/vi/uFO_aBpbdWk/hqdefault.jpg)](https://www.youtube.com/watch?v=uFO_aBpbdWk)
+
 [Watch the video on Youtube](https://www.youtube.com/watch?v=uFO_aBpbdWk)
 
 Note: Adding the video here as we ran into playback issues while uploading it to youtube.

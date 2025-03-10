@@ -42,3 +42,7 @@ os.environ["DB_NAME"] = ""
 
 ![Image 2](UI_Images/UI_2.png)
 ![Image 3](UI_Images/UI_3.png)
+![Image 2](UI_Images/UI_4.png)
+![Image 3](UI_Images/UI_5.png)
+![Image 2](UI_Images/UI_6.png)
+![Image 3](UI_Images/UI_7.png)

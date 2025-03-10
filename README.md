@@ -42,7 +42,12 @@ os.environ["DB_NAME"] = ""
 
 ![Image 2](UI_Images/UI_2.png)
 ![Image 3](UI_Images/UI_3.png)
-![Image 2](UI_Images/UI_4.png)
-![Image 3](UI_Images/UI_5.png)
-![Image 2](UI_Images/UI_6.png)
-![Image 3](UI_Images/UI_7.png)
+![Image 4](UI_Images/UI_4.png)
+![Image 5](UI_Images/UI_5.png)
+![Image 6](UI_Images/UI_6.png)
+![Image 7](UI_Images/UI_7.png)
+
+## Hybrid tool calling
+![Image 8](UI_Images/UI_8.png)
+
+
